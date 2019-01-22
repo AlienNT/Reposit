@@ -1,0 +1,182 @@
+m = prompt('Сколько времени Вы планируете провести на нашем сайте? (мин)');
+varA = ["img1.jpg",
+    "img2.jpg",
+    "img3.jpg"];
+
+i = varA.length;
+
+//Смена фона
+function myFunction() {
+    bgImg = "image/" + varA[i];
+    document.body.style.backgroundImage = 'url(' + bgImg + ')';
+}
+
+//Слайдер
+array = ["sl1.jpg",
+    "sl2.jpg",
+    "sl3.jpg"];
+is = 0;
+
+function right() {
+    is++;
+    if (is === array.length) is = 0;
+    arrayIs = 'image/' + array[is];
+    document.getElementById('slider').style.backgroundImage = 'url(' + arrayIs + ')';
+}
+
+function left() {
+    is--;
+    if (is < 0) is = array.length - 1;
+    arrayIs = 'image/' + array[is];
+    document.getElementById('slider').style.backgroundImage = 'url(' + arrayIs + ')';
+
+}
+
+// Изменение размера
+function changeSizeImage() {
+    if (document.getElementById('slider').height = '40vw') {
+        this.height = '50vw';
+        this.width = '50vw';
+    }
+    else {
+        this.height = '40vw';
+        this.width = '40vw';
+    }
+}
+
+// Показать/скрыть изображение
+function showImage(id) {
+    document.getElementById(id).style.display = "block";
+}
+
+function hideImage(id) {
+    document.getElementById(id).style.display = "none";
+}
+
+// Часы
+function setClock() {
+    var container = new Date();
+    document.getElementById("clock").innerHTML = container.toTimeString().slice(0, 8)
+}
+
+setInterval(setClock, 1000);
+
+// Таймер
+function startTimer() {
+    var my_timer = document.getElementById("my_timer");
+    var time = my_timer.innerHTML;
+    var arr = time.split(":");
+    var h = arr[0];
+    // var m = arr[1];
+    var s = arr[2];
+    if (s == 0) {
+        if (m == 0) {
+            if (h == 0) {
+                alert("Время вышло");
+                window.location.reload();
+                return;
+            }
+            h--;
+            m = 60;
+            if (h < 10) h = "0" + h;
+        }
+        m--;
+        if (m < 10) m = "0" + m;
+        s = 59;
+    }
+    else s--;
+    if (s < 10) s = "0" + s;
+    document.getElementById("my_timer").innerHTML = h + ":" + m + ":" + s;
+    setTimeout(startTimer, 1000);
+}
+
+setTimeout("startTimer()", 1000);
+
+
+// <!------------ Обработчики событий ----------->
+
+function onLoad(f) {
+    if (window.addEventListener) // Стандартный метод регистрации событий
+        window.addEventListener("load", f, false)
+    else if (window.attachEvent) // В IЕ8 и в более ранних версиях
+        document.attachEvent("onload", f)
+    else window["onload"] = f;     // Для всех остальных
+};
+onLoad(function () { // Все в одной анонимной функции: не определяем имя
+// Цикл по всем изображениям, ищем атрибут data-imgover
+    for (var i = 0; i < document.images.length; i++) {
+        var img = document.images[i];
+        var imgover = img.getAttribute("data-imgover");
+        if (!imgover) continue; // Пропустить изображения без data-imgover
+
+// Создаем новый объект (кэш) и загружаем в него сменное изображение
+        (new Image()).src = imgover;
+// Определяем атрибут для сохранения URL-адреса изображения по умолчанию
+        img.setAttribute("data-imgout", img.src);
+
+// Регистрируем обработчики событий, создающие эффект смены изображений
+        img.onmouseover = function () {
+            this.src = this.getAttribute("data-imgover");
+        };
+
+        img.onmouseout = function () {
+            this.src = this.getAttribute("data-imgout");
+        };
+    }
+    function TestFld(id) {
+        Obj = document.getElementById(id);
+        if (Obj.value == '')  {
+            Obj.style.backgroundColor='#FFE0E0';
+            Obj.focus();
+            return false; }
+        else return true;
+    }
+    function TestForm() {
+        valid = true;
+        var errors="";
+        valid = TestFld("phone") && valid;
+        valid = TestFld("email") && valid;
+        valid = TestFld("name") && valid;
+        valid = TestFld("passagain") && valid;
+        valid = TestFld("password") && valid;
+        valid = TestFld("login") && valid;
+        if (! valid) errors= ( "Не все обязательные поля заполнены!!\n" );
+        if (document.form.password.value.length > 0 && document.form.password.value.length <6) {
+            errors+="Слишком короткий пароль (меньше 6 символов)!!\n";
+            document.form.password.style.backgroundColor='#FFE0E0';
+            document.form.password.focus();
+        }
+        if (document.form.password.value  != document.form.passagain.value) {
+            errors+="Не совпадают пароли!!\n" ;
+            document.form.password.style.backgroundColor='#FFE0E0';
+            document.form.passagain.style.backgroundColor='#FFE0E0';
+            document.form.password.focus();
+        }
+        if (! document.form.age.checked )  {
+            errors+="\nВы не приняли наши условия !!\n";
+        }
+
+        if(errors!="") {
+            alert("При заполнении формы допущены ошибки:\n\n"+errors);
+            valid = false;
+        }
+        return valid;
+    }
+    function SetEvents() {
+        for(i = 0;i < document.form.elements.length; i++) {
+            var e = document.form.elements[i]; // Текущий элемент
+            // Интерес представляют только поля <input type="text">
+            // и <input type="password">
+            if (e.type != "text" && e.type != "password") continue;
+            e.onchange=ChangeField;   // Присваиваем обработчик события
+        }
+    }
+
+//  А это сам обработчик.
+    function ChangeField() {
+        var Obj=this;
+        this.style.backgroundColor='#FFFFFF';
+    }
+
+});
+

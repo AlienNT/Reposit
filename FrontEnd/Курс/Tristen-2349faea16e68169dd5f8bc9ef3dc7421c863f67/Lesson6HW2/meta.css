@@ -1,0 +1,143 @@
+body {
+    background: #f1f1f1;
+    font-size: 0;
+    margin: 5%;
+}
+.search {
+    width: 100%;
+    padding: 0 0 0 20px;
+    height: 150px;
+    margin: 0;
+}
+* {
+    font-family: Arial, sans-serif;
+    color: #acacbd;
+    outline:none;
+    background: none;
+
+
+}
+#sr {
+    box-sizing: border-box;
+    width: 90%;
+    display: inline-block;
+    border: none;
+    font-size: 120px;
+    color: #ec5a62;
+    padding: 10px 0 10px 10px;
+    margin: 0;
+    font-weight: 700;
+
+}
+button[type="submit"] {
+
+    width: 10%;
+    height: 100%;
+    background: transparent url(favicon.png) no-repeat center;
+    background-size: 80%;
+    border: none;
+    font-size: 0;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button[type="submit"]:hover {
+    background-size: 90%;
+    font-size: 0;
+}
+aside {
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    vertical-align: top;
+
+    max-width: 100%;
+    min-width: 250px;
+}
+li {
+    font-size: 16px;
+    display: block;
+    background: none;
+    height: 70px;
+
+    min-width: 150px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 20px;
+    color: #acacbd;
+}
+ul {
+    padding: 0 0 0 10%;
+    margin: 0;
+}
+h2 {
+    padding: 0 0 0 10%;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin: 5px;
+    box-sizing: border-box;
+    background: rgba(118,117,128,0.05);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+a:hover {
+    color: #ec5a62;
+    background: rgba(118,117,128,0.1);
+}
+img {
+
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+    margin: 10px 10px 0 10px;
+
+}
+h3 {
+    vertical-align: middle;
+    font-size: 0.85em;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0;
+    width: calc(100% - 70px);
+    color: #acacac;
+    padding: 10px 0 0 0;
+
+}
+.people {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+a:hover h3 {
+    color: #ec5a62;;
+}
+.popular {
+    height: 50px;
+    box-sizing: content-box;
+
+}
+span {
+    color: #acacba;
+}
+input::placeholder {
+    color:#c2c2c2;
+    /*max-font-size: 120px;*/
+    /*min-font-size: 16px;*/
+    display: inline-block;
+    height: 100%;
+}

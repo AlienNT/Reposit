@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i');
+body {
+    background: #ffffff;
+}
+div {
+    box-sizing: border-box;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 125px 22px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 0 125px 22px rgba(0,0,0,0.08);
+    box-shadow: 0 0 125px 22px rgba(0,0,0,0.08);
+    width: 80%;
+    margin: 5% auto 5%;
+    padding: 5%;
+}
+div > h1,h3,p {
+    width: 90%;
+
+    margin: 20px auto 20px;
+}
+p:first-of-type::first-letter {
+    line-height: 0.8;
+    float: left;
+    font-size: 120px;
+    letter-spacing: -7px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: 500;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+}
+p {
+    font-family: 'Muli', sans-serif;
+    opacity: 0.8;
+    line-height: 2;
+
+}
+button {
+    border: solid #eaa258 1px;
+    background: none;
+    max-width: 20%;
+    min-width: 200px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #eaa258;
+    margin: 0 0 0 5%;
+    outline:none;
+}
+button:hover {
+    border: solid rgb(15, 162, 44) 1px;
+    color: rgb(15, 162, 44);
+    cursor: pointer;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+h3 {
+    font-family: "Calibri Light", sans-serif;
+    font-style: italic;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+span  {
+    padding: 0 25px 0 0;
+    font-size: 50px;
+}
+h1 {
+    font-weight: 400;
+    letter-spacing: -1px;
+
+}

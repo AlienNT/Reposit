@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+/*font-family: 'Lato', sans-serif;*/
+body, html {
+    margin: 0;
+    font-size: 0;
+}
+:hover {
+    transition: 0.2s;
+}
+[class^="section"] {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5;
+
+}
+[class^='content']{
+    width: 800px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 50px 160px;
+
+}
+.icon {
+    width: 69px;
+    height: auto;
+}
+.scroll, .icon {
+    margin: 80px 0;
+}
+.scroll-a {
+    background: url("img/scroll.svg");
+    width: 23px;
+    height: 37px;
+    display: block;
+}
+
+
+.content {
+    min-height: 100vh;
+    flex-basis: 20%;
+    padding: 0 85px;
+}
+
+.content-3 {
+    border-bottom: solid 2px white;
+    border-right: solid 2px white;
+    border-left: solid 2px white;
+    border-top: none;
+    width: 800px;
+
+}
+.content-3 .h1-2 {
+    width: 800px;
+    margin: -80px 0 20px 0;
+
+    padding: 0;
+}
+.content-2, .content-4, .content-5 {
+    color: #3c3c3c;
+    font-size: 16px;
+    border: solid 2px #3c3c3c;
+}
+.content-4 {
+    margin: 100px auto;
+}
+.content-4 > * {
+    margin: 10px auto;
+}
+.content-4 img {
+    padding-top: 70px;
+}
+.content-5 {
+    min-height: 210px;
+    margin-top: 140px;
+}
+.content, .content-3 {
+    color: white;
+    font-size: 16px;
+}
+.section_1 {
+    min-height: 100vh;
+              background: url(img/hero-bg.jpg) no-repeat
+ center;
+     -webkit-background-size:  cover;
+     background-size: cover ;
+
+}
+.section_2 {
+    max-height: 60vh;
+    min-height: 470px;
+}
+.section_3 {
+    max-height: 40vh;
+    min-height: 360px;
+    background: url("img/services.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+.section_4, .section_5 {
+    min-height: 100vh;
+}
+.section_5 {
+
+}
+
+.h1_white {
+    background: white;
+}
+
+.h1-1 {
+    text-transform: uppercase;
+    font-size: 54px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.section_3 .h1-2:before , .section_3 .h1-2:after {
+    content: '———————';
+    font-family: serif;
+    letter-spacing: 0;
+}
+.section_3 .h1-2:before{
+    margin:  0 58px 0 0;
+}
+.section_3 .h1-2:after{
+    margin: 0 0 0 58px;
+}
+.content-5 .h1-2 {
+    background: #ffffff;
+}
+.h1-2 {
+    display: block;
+    padding: 0 70px;
+    margin: -16% 0 30px 0;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.h2 {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.h4 {
+    /*padding: 10% 0;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.section_4 .h4 {
+    font-size: 14px;
+}
+
+.block-box {
+    min-height: 50vh;
+    min-width: 850px;
+    max-width: 100%;
+}
+[class^="block-"] {
+    float: left;
+    height: 25vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*padding: 5px;*/
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: white;
+    -webkit-background-size: cover;
+    background-size: auto;
+
+}
+.blocks-box p {
+    margin: 110px 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.block-1{
+    background: url("img/Layer1.png")no-repeat center;
+    width: calc(30% - 10px);
+}
+.block-2{
+    background: url("img/Layer2.png")no-repeat center;
+    width: calc(40% - 10px);
+}
+.block-3{
+    background: url("img/Layer3.png")no-repeat center;
+    width: calc(30% - 10px);
+}
+.block-4{
+    background: url("img/Layer4.png")no-repeat center;
+    width: calc(30% - 10px);
+}
+.block-5{
+    background: url("img/Layer5.png")no-repeat center;
+    width: calc(40% - 10px);
+}
+.block-6{
+    background: url("img/Layer6.png")no-repeat center;
+    width: calc(30% - 10px);
+}
+[class^="block-"]:hover  {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: #393939;
+    color: white;
+    font-size: 16px;
+    width: 70%;
+    margin: 40px auto 0;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.button:hover {
+    background: #5e5e5e;
+}
+footer {
+    min-width: 98vw;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.cls-3 {
+    stroke: #333333;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.cls-4 {
+    stroke: #333333;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.cls-5 {
+    fill: #333333;
+}
+.cls-6 {
+    stroke: #ffffff;
+    stroke-width: 2px;
+    fill: none;
+
+}
+
+.cls-7 {
+    stroke: #ffffff;
+    stroke-width: 2px;
+    fill: #ffffff;
+}
+
+footer img  {
+    width: 29px;
+    height: auto;
+    margin: 0 35px -8px 0;
+}
+
+
+
+
+
+

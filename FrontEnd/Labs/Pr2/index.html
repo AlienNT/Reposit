@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Практическая работа</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="main-body">
+<ul class="radio">
+    <li onclick="myFunction(i = 0)"></li>
+    <li onclick="myFunction(i = 1)"></li>
+    <li onclick="myFunction(i = 2)"></li>
+</ul>
+<main class="main col-md-10">
+
+    <div class="slider col-md-10">
+        <div class="slider-inner"
+             id="slider" onclick="changeSizeImage()">
+        </div>
+        <div class="arrows">
+            <a href="#" id="left-arrow" class="arrow" onclick="left()"><</a>
+            <a href="#" id="right-arrow" class="arrow" onclick="right()">></a>
+        </div>
+    </div>
+    <div class="hidden">
+        <UL>
+            <LI onmouseover="showImage('f1')" onmouseout="hideImage('f1')">Отец: Иванов Иван Степанович
+            <LI onmouseover="showImage('f2')" onmouseout="hideImage('f2') ">Мать: Иванова Эльвира Петровна
+            <LI onmouseover="showImage('f3')" onmouseout="hideImage('f3')">Брат: Александр
+            <LI onmouseover="showImage('f4')" onmouseout="hideImage('f4')">Брат: Владимир
+            <LI onmouseover="showImage('f5')" onmouseout="hideImage('f5')">Сестра: Елена
+        </UL>
+        <div id="f1" class=Foto><img src="image/img1.jpg"></div>
+        <div id="f2" class=Foto><img src="image/img2.jpg"></div>
+        <div id="f3" class=Foto><img src="image/img3.jpg"></div>
+        <div id="f4" class=Foto><img src="image/sl1.jpg"></div>
+        <div id="f5" class=Foto><img src="image/sl2.jpg"></div>
+    </div>
+    <h1 id="clock"></h1>
+    <img src="image/chatwoo-faq-icon.png"
+         height="200px"
+         onmouseover="this.src='image/help2.png'"
+         onmouseout="this. src=' image/chatwoo-faq-icon.png'">
+    <div class="img-block">
+        <h2>JS</h2>
+        <img src="image/кот1.jpg" data-imgover="image/кот4.jpg">
+        <img src="image/кот2.jpg" data-imgover="image/кот5.jpg">
+        <img src="image/кот3.jpg" data-imgover="image/кот6.jpg">
+    </div>
+    <div class="img-block2">
+        <h2>CSS</h2>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+    </div>
+    <div id="square" class="square">
+        <p>
+            <b>jQuery</b> - это JavaScript библиотека, значительно упрощающая написание кода.
+        </p>
+        <p>Девиз jQuery <i>"write less, do more"</i>(пиши меньше, делай больше) максимально точно отражает главное
+            предназначение jQuery.</p>
+        <p>jQuery содержит функции, позволяющие создавать анимацию и обработчики событий.</p>
+        <p>Щёлкните на квадрате слева.</p>
+        <div id="coord">
+            Курсор мыши во время щелчка находился на следующих координатах:
+            <br>
+            <b>X: <span id="x"> </span> Y: <span id="y"> </span></b>
+        </div>
+    </div>
+    <p id="par1">Первый абзац.</p>
+    <p id="par2">Второй абзац.</p>
+    <p id="par3">Третий абзац.</p>
+    <p id="par4">Четвертый абзац.</p>
+    <a href="http://www.wisdomweb.ru/">wisdomweb.ru</a>
+    <a href="http://www.wisdomweb.ru/HTML/">HTML учебник</a>
+    <input id="bt1" type="button" value="Изменить размер блока (убрать/восстановить)" />
+    <input id="bt2" type="button" value="Добавить класс square к div" />
+    <input id="bt3" type="button" value="Удалить класс square из div" />
+    <input id="text1" type="text" style="color:grey;" value="Введите ФИО" />
+    <input id="bt4" type="button" value="Скрыть/Показать третий абзац" />
+    <input id="text2" type="text" style="width:270px" value="Новый размер шрифта первого абзаца"/>
+    <input id="bt5" type="button" style="display:none"
+           value="Изменить размер шрифта первого абзаца на новый"/>
+</main>
+<h1 id="timer">
+    <span class="ico">
+    </span>
+    <span id="time-inner">У Ваc осталось: <br> <span id="my_timer"
+                                                     style="color: #f00; font-weight: bold;">00:10:00</span>
+    </span>
+</h1>
+<p class="date">Этот сайт существует уже:
+    <script type="text/javascript">
+        var start = new Date('9 23, 2018');    // Дата создания сайта
+        var end = new Date();
+        var life = Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+        var suffix = new Array("день", "дня", "дней  ");
+        var keys = [2, 0, 1, 1, 1, 2];
+        var mod = life % 100;
+        var suffix_key = mod > 4 && mod < 20 ? 2 : keys[Math.min(mod % 10, 5)];
+        s = life + " " + suffix[suffix_key] + ". ";
+        document.write(s)
+    </script>
+</p>
+
+
+
+
+
+<script src="jquery-3.3.1.min.js" defer></script>
+<script src="main.js" defer></script>
+</body>
+</html>

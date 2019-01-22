@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('../Fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('../Fonts/SegoeUI-Bold.woff') format('woff'),
+    url('../Fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Segoe UI Reg';
+    src: url('../Fonts/SegoeUI-Regular.woff2') format('woff2'),
+    url('../Fonts/SegoeUI-Regular.woff') format('woff'),
+    url('../Fonts/SegoeUI-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+    border: none;
+}
+section {
+    min-height: 100vh;
+    line-height: 1.45;
+}
+.s1 {
+    background: #23232e;
+    color: white;
+
+}
+.s2 {
+    background-image: url("/Images/bg.jpg");
+    color: #464b4f;
+    min-width: 100vh;
+    max-width: 100%;
+
+}
+.art1 {
+    min-height: 100vh;
+}
+.art1> * {
+    background: none;
+    /*text-align: center;*/
+    /*min-height: 100vh;*/
+
+}
+img {
+    padding-top: 8.5%;
+    display: block;
+    border: none;
+    margin: 0 auto 8%;
+    width: 7%;
+    height: auto;
+    box-sizing: border-box;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 416%;
+    text-align: center;
+    /* letter-spacing: -0.5px; */
+    /*margin: 8.3% auto 0;*/
+    font-family: 'Segoe UI Bold', sans-serif;
+    margin: 0 auto 0;
+
+
+}
+.par_s1 {
+    font-size: 93%;
+    display: block;
+    width: 23%;
+    margin: 1.5% auto 0;
+    line-height: 1.7;
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    margin: 380% 0 0 0;
+    box-sizing: border-box;
+    display: block;
+    vertical-align: bottom;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+}
+button, .button {
+    outline: none;
+}
+.h_2 {
+    margin: 4.5% 0 0 0;
+}
+p {
+    max-width: 45%;
+    display: block;
+    text-align: center;
+    font-size: 155%;
+    margin: 0 auto 0;
+    /*font-family: 'Segoe UI', sans-serif;*/
+
+
+}
+.art2 p:first-child {
+    margin: 6% auto 0;
+}
+.art2 p:last-of-type {
+    margin: 2% auto 0;
+}
+h3 {
+    font-size: 100%;
+    margin: 0 0 0 0;
+    max-width: 90%;
+}
+.tb > li {
+    display: inline-block;
+    max-width: 30%;
+    margin: 0 0 0 2%;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    color: #464b4f;
+    font-size: 93.6%;
+}
+.tb {
+    display: block;
+    margin: 3.4% auto;
+    padding: 0 0 0 0;
+    width: 51.2%;
+    box-sizing: border-box
+}
+P,li {
+    font-family: 'Segoe UI Reg', sans-serif;
+}

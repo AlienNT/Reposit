@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Практическая работа</title>
+
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="main-body" onload="SetEvents();">
+<ul class="radio">
+    <li onclick="myFunction(i = 0)"></li>
+    <li onclick="myFunction(i = 1)"></li>
+    <li onclick="myFunction(i = 2)"></li>
+</ul>
+<main class="main col-md-10">
+
+    <div class="slider col-md-10">
+        <div class="slider-inner"
+             id="slider" onclick="changeSizeImage()">
+        </div>
+        <div class="arrows">
+            <a href="#" id="left-arrow" class="arrow" onclick="left()"><</a>
+            <a href="#" id="right-arrow" class="arrow" onclick="right()">></a>
+        </div>
+    </div>
+    <div class="hidden">
+        <UL>
+            <LI onmouseover="showImage('f1')" onmouseout="hideImage('f1')">Отец: Иванов Иван Степанович
+            <LI onmouseover="showImage('f2')" onmouseout="hideImage('f2') ">Мать: Иванова Эльвира Петровна
+            <LI onmouseover="showImage('f3')" onmouseout="hideImage('f3')">Брат: Александр
+            <LI onmouseover="showImage('f4')" onmouseout="hideImage('f4')">Брат: Владимир
+            <LI onmouseover="showImage('f5')" onmouseout="hideImage('f5')">Сестра: Елена
+        </UL>
+        <div id="f1" class=Foto><img src="image/img1.jpg"></div>
+        <div id="f2" class=Foto><img src="image/img2.jpg"></div>
+        <div id="f3" class=Foto><img src="image/img3.jpg"></div>
+        <div id="f4" class=Foto><img src="image/sl1.jpg"></div>
+        <div id="f5" class=Foto><img src="image/sl2.jpg"></div>
+    </div>
+    <h1 id="clock"></h1>
+    <img src="image/chatwoo-faq-icon.png"
+         height="200"
+         onmouseover="this.src='image/help2.png'"
+         onmouseout="this. src=' image/chatwoo-faq-icon.png'">
+    <div class="img-block">
+        <h2>JS</h2>
+        <img src="image/кот1.jpg" data-imgover="image/кот4.jpg">
+        <img src="image/кот2.jpg" data-imgover="image/кот5.jpg">
+        <img src="image/кот3.jpg" data-imgover="image/кот6.jpg">
+    </div>
+    <div class="img-block2">
+        <h2>CSS</h2>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+    </div>
+</main>
+<h1 id="timer">
+    <span class="ico">
+    </span>
+    <span id="time-inner">У Ваc осталось: <br> <span id="my_timer"
+                                                     style="color: #f00; font-weight: bold;">00:10:00</span>
+    </span>
+</h1>
+<p class="date">Этот сайт существует уже:
+    <script type="text/javascript">
+        var start = new Date('9 23, 2018');    // Дата создания сайта
+        var end = new Date();
+        var life = Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+        var suffix = new Array("день", "дня", "дней  ");
+        var keys = [2, 0, 1, 1, 1, 2];
+        var mod = life % 100;
+        var suffix_key = mod > 4 && mod < 20 ? 2 : keys[Math.min(mod % 10, 5)];
+        s = life + " " + suffix[suffix_key] + ". ";
+        document.write(s)
+    </script>
+</p>
+</body>
+<form action="" method="POST" name="form" onsubmit="return TestForm();">
+    <br/>
+    <fieldset class="login">
+        <legend>Регистрационные данные</legend>
+        <label for="login" class="hover">Имя пользователя (логин)</label>
+        <input type="text" id="login" name="login" class="required text"/>
+        <label for="password" class="hover">Пароль</label>
+        <input type="password" id="password" name="password" class="required text"/>
+        <label for="password" class="hover">Подтверждение пароля</label>
+        <input type="password" id="passagain" class="required text"/>
+    </fieldset>
+    <fieldset>
+        <legend>Личные сведения</legend>
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" class="required text"/><br/>
+        <label for="email">Адрес электронной почты</label>
+        <input type="text" id="email" name="email" class="required email
+text"/><br/>
+        <label for="phone">Телефон</label>
+        <input type="text" id="phone" name="phone" class="phone text"/><br/>
+        <label for="time">Любимое время работы</label>
+        <select name = "time">
+            <option value = "1">Утро
+            <option value = "2">День
+            <option value = "3">Вечер
+            <option value = "3">Ночь
+            <option value = "4">Глубокая ночь
+        </select><br/> <br/>
+        <label for="sex"> Ваш пол </label>
+        <input type="radio"  name="sex" value="муж" checked>муж
+        <input type="radio"  name="sex" value="жен"/>жен<br/><br/>
+        <label for="age">Принимаете наши условия?</label>
+        <input type="checkbox" id="age" value="yes"/>
+        <input type="button"  value="Наши условия" onclick='location.href= "License.html";'>
+        <br/>
+    </fieldset>
+    <input type="submit" value="Submit Form" class="submit"/>
+</form>
+
+</html>

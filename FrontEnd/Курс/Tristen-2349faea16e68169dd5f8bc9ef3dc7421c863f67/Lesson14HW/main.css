@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "ArialRegular";
+    src: url("fonts/ArialRegular/ArialRegular.eot");
+    src: url("fonts/ArialRegular/ArialRegular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: Arial, sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+.main {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(Images/main_bg.png) no-repeat;
+    /*background: center;*/
+    -webkit-background-size: cover;
+    background-size: 100vw
+100vh;
+    padding: 0;
+    margin: 0;
+}
+.form_create {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    /*max-width: 30%;*/
+    width: 590px;
+    height: 610px;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+.caption {
+    color: #1b1c1d;
+    font-size: 191%;
+    position: relative;
+    top: 5px;
+}
+.caption:before {
+    content: url(Images/icon2.png);
+    margin-left: 9px;
+
+    margin-right: 12px;
+}
+label {
+    font-size: 0;
+}
+.form_create label input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 8px 8px;
+    display: inline-block;
+    font-size: 18px;
+
+}
+[class^="text"] {
+    color: rgba(139, 140, 144, 0.91);
+    font-size: 16px;
+    margin: 0 0 40px 8px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: "ArialRegular", sans-serif;
+
+}
+.text2 {
+    margin: 20px 0 0 10px;
+    /*font-size: 16px;*/
+    line-height: 1.5;
+}
+.input_form input {
+    background: #f0f0f0;
+    border: none;
+}
+.input_form input:hover {
+    background: #e1e1e1;
+}
+.input_form input:focus {
+    background: #e1e1e1;
+}
+.f_name input, .l_name input {
+    width: calc(50% - 16px);
+}
+.email input, .pass input, .sign_button input{
+    width: calc(100% - 16px);
+}
+.sign_button input {
+    background: #ea355a;
+    color: #ffffff;
+    font-weight: 600;
+    border-bottom: #bd1962 solid 4px;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+}
+.sign_button input:hover {
+    cursor: pointer;
+    background: #ff506d;
+}
+.sign_button [value] {
+    padding: 17px;
+    font-size: 25px;
+}
+.sign_button input:focus {
+    background: #ff506d;
+}
+::placeholder{
+    /*background: #f0f0f0;*/
+}
+.main a {
+    color: #ea355a;
+}
+.main a:hover {
+    color: #ff506d;
+}

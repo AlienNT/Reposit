@@ -1,0 +1,93 @@
+* {
+    outline: none;
+}
+main {
+    background: #ccc;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+main * {
+    margin: 10px;
+}
+div {
+    background: #bbb;
+}
+#div-with-text {
+    text-decoration: underline;
+}
+.text-blocks > div {
+    font-style: italic;
+}
+div > div {
+    font-style: normal;
+}
+
+
+
+footer > div {
+    font-style: italic;
+}
+footer span {
+    font-style: normal;
+}
+footer span:first-child {
+    color: darkred;
+}
+footer span:last-child {
+    color: darkgreen;
+}
+footer span:last-of-type {
+    color: darkblue;
+}
+footer span:nth-child(4) {
+    color: orange;
+}
+footer span:nth-last-child(2) {
+    color: darkred;
+}
+footer ul li[data-sdfsdfsdf=el-2] {
+    color: crimson;
+}
+footer ul li[data-sdfsdfsdf=el-2] ~ * {
+    color: chartreuse;
+}
+footer ul li[data-sdfsdfsdf=el-2] + li {
+    color: purple;
+}
+
+
+a {
+    display: block;
+}
+a[href^=http] {
+    color: #1d8ec0;
+}
+a[href$='.se'] {
+    color: red;
+}
+a[href*='b'] {
+    color: orange;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    color: #8e1cff;
+}
+
+footer:before,
+footer:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: #333333;
+}
+input[type=text] {
+    border: 3px solid black;
+}
+input:focus {
+    border-color: red;
+}
+
+

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400|Raleway:400,700");
+@import url("https://fonts.googleapis.com/css?family=Neucha&subset=cyrillic");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.section_1 {
+  background: url("../img/bg_s1.png") no-repeat bottom fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%; }
+  .section_1 .section_1-cont {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: relative; }
+  .section_1 .form-cont {
+    text-align: center;
+    height: fit-content;
+    max-width: 400px;
+    min-width: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; }
+  .section_1 .form-cont_inner {
+    padding: 3px;
+    position: relative; }
+  .section_1 .form_auto, .section_1 .form_reg {
+    text-align: center;
+    height: fit-content;
+    max-width: 400px;
+    min-width: 200px;
+    margin: auto;
+    background: rgba(198, 200, 202, 0.71);
+    border-radius: 15px;
+    padding: 15px; }
+    .section_1 .form_auto .input_inner, .section_1 .form_reg .input_inner {
+      font-weight: 600;
+      font-family: 'Neucha', cursive;
+      outline: none;
+      border-radius: 15px;
+      text-align: center;
+      margin: 3px 0;
+      height: 30px;
+      width: 100%; }
+    .section_1 .form_auto .input_inner, .section_1 .form_auto .form_submit, .section_1 .form_reg .input_inner, .section_1 .form_reg .form_submit {
+      font-size: 17px;
+      border: none;
+      transition: linear all 0.2s; }
+      .section_1 .form_auto .input_inner:hover, .section_1 .form_auto .input_inner:active, .section_1 .form_auto .form_submit:hover, .section_1 .form_auto .form_submit:active, .section_1 .form_reg .input_inner:hover, .section_1 .form_reg .input_inner:active, .section_1 .form_reg .form_submit:hover, .section_1 .form_reg .form_submit:active {
+        transform: scale(0.95); }
+    .section_1 .form_auto .form_submit, .section_1 .form_reg .form_submit {
+      cursor: pointer;
+      outline: none;
+      font-weight: bold;
+      font-family: 'Neucha', cursive;
+      padding: 0 10px;
+      margin: 5px auto;
+      height: 30px;
+      display: inline-block;
+      border-radius: 15px; }
+
+.active {
+  transform: scale(0.95); }
+
+.false::placeholder {
+  color: #a60002; }
+
+.warn_block {
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Neucha', cursive;
+  margin: -60px auto 0;
+  display: none;
+  width: calc(100% - 6px);
+  min-height: 30px;
+  padding: 15px;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #a60002;
+  border-radius: 15px;
+  background: #dfe1e3; }
+
+.reg_link {
+  font-size: 17px;
+  margin: 5px;
+  font-family: 'Neucha', cursive;
+  color: white;
+  background-color: #0852a9;
+  border-radius: 15px;
+  height: 30px;
+  padding: 0 17px;
+  display: inline-block;
+  outline: none;
+  border: none;
+  transition: linear all 0.2s; }
+  .reg_link:hover, .reg_link:active {
+    transform: scale(0.95); }
+
+/*# sourceMappingURL=main.css.map */
