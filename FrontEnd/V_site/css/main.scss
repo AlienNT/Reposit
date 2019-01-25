@@ -14,6 +14,7 @@ html {
 body {
 
 }
+
 * {
   outline: none;
   text-decoration: none;
@@ -22,7 +23,7 @@ body {
 
 .main_section_block {
   padding-bottom: 5vh;
-
+  overflow-x: hidden;
   background: url("../img/dark-background.jpg") no-repeat fixed;
   background-size: cover;
 
@@ -121,35 +122,93 @@ body {
   .v_sect2 {
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.87);
     border-radius: 25px 25px;
-    margin-top: 5vh ;
+    margin-top: 5vh;
     box-sizing: border-box;
-    padding: 2vh 5px;
+    padding: 2vh 2vw;
     background: #ffffff;
     min-height: 100vh;
-    h1 {
-      text-align: center;
-      font-size: 32px;
-      color: #000;
-    }
+
+
     hr {
       width: 90%;
     }
-    &> * {
+
+    & > * {
       padding: 2vh 0;
     }
+
     .v_blog {
       min-height: 100vh;
       position: relative;
+
+      h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        color: #000;
+        padding-bottom: 4vh;
+      }
+
+      .blog-inner {
+
+        h2 {
+          font-size: 20px;
+          padding: 2vh 2vw;
+        }
+
+        img {
+
+          width: 100%;
+          height: auto;
+
+          &:after, &:before {
+            content: '';
+            clear: both;
+          }
+        }
+
+        p {
+          //display: inline-block;
+          //width: 20%;
+          font-size: 20px;
+          color: #000;
+          padding-bottom: 2vh;
+
+        }
+
+        a {
+          font-weight: bold;
+          width: 100%;
+          text-align: right;
+          display: inline-block;
+          font-size: 18px;
+          padding-bottom: 5vh;
+          padding-right: 2vw;
+        }
+      }
     }
+
+
     .v_gallery {
       position: relative;
       min-height: 100vh;
+
+      h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        color: #000;
+        padding-bottom: 4vh;
+      }
     }
+
     .v_anchor {
       position: absolute;
       top: -11vh;
 
     }
+
+
   }
 
 
@@ -178,15 +237,17 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-.v_logo {
-  text-decoration: none;
-  text-align: center;
-  font-size: 16px;
-  color: white;
-  //height: 5vh;
-  //width: 5vh;
-  display: inline-block;
-}
+
+  .v_logo {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    //height: 5vh;
+    //width: 5vh;
+    display: inline-block;
+  }
+
   .links {
     a {
 
@@ -204,6 +265,7 @@ body {
       font-size: 50px;
       color: white;
     }
+
     display: flex;
     align-items: center;
     height: fit-content;
@@ -217,12 +279,71 @@ body {
       font-size: 15px;
     }
   }
-  .v_logo,.links a,.v_nav a {
+
+  .v_logo, .links a, .v_nav a {
     transition: all linear 0.1s;
+
     &:hover {
       text-shadow: 0 0 5px #FFFFFF;
       transform: scale(1.2);
     }
+  }
+
+  @media all and (max-width: 575px) {
+    .active_nav {
+      transition: all linear 0.2s;
+      transform: translateX(-100%);
+    }
+    .hamburger {
+      position: absolute;
+      right: 2vw;
+      z-index: 150;
+      width: 4vh;
+      height: 4vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      cursor: pointer;
+
+      .hamburger-inner {
+        transition: linear all 0.2s;
+        background: #fff;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+      }
+      .active_hamburger {
+        transition: linear all 0.2s;
+        position: absolute;
+        &:nth-child(1) {
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+    .v_header_inner {
+
+    }
+    .links {
+      display: none;
+    }
+    .v_nav {
+      transition: all linear 0.2s;
+      //display: none;
+      //right:  ;
+      left: 100%;
+      background: #111111;
+      position: fixed;
+      width: 100%;
+      top: 7vh;
+      height: 93vh;
+    }
+
   }
 }
 
@@ -230,11 +351,13 @@ body {
   display: flex;
   min-height: 15vh;
   background: #111111;
+
   .v_footer_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .v_logo {
     text-decoration: none;
     text-align: center;
@@ -244,6 +367,7 @@ body {
     //width: 5vh;
     display: inline-block;
   }
+
   .links {
     a {
 
@@ -256,14 +380,16 @@ body {
     }
   }
 
-  .v_logo,.links a,.v_nav a {
+  .v_logo, .links a, .v_nav a {
     transition: all linear 0.1s;
+
     &:hover {
       text-shadow: 0 0 5px #FFFFFF;
       transform: scale(1.2);
     }
   }
 }
+
 .scroll-down {
   width: fit-content;
   display: block;
@@ -288,6 +414,7 @@ body {
   }
 
 }
+
 .v_home-anchor {
   top: -7vh;
   position: absolute;
