@@ -214,13 +214,15 @@ html {
   transform: scale(1.2);
 }
 @media all and (max-width: 575px) {
+  .v_header .v_logo {
+    width: fit-content;
+  }
   .v_header .active_nav {
     transition: all linear 0.2s;
     transform: translateX(-100%);
   }
   .v_header .hamburger {
-    position: fixed;
-    right: 2vw;
+    position: relative;
     z-index: 150;
     width: 4vh;
     height: 4vh;
