@@ -290,14 +290,15 @@ body {
   }
 
   @media all and (max-width: 575px) {
+    .v_logo {
+      width: fit-content;
+    }
     .active_nav {
       transition: all linear 0.2s;
       transform: translateX(-100%);
     }
     .hamburger {
-      position:fixed;
-
-      right: 2vw;
+      position: relative;
       z-index: 150;
       width: 4vh;
       height: 4vh;
