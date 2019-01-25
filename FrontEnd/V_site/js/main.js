@@ -27,7 +27,15 @@
             cursor: 'pointer'
         });
 
-
+        $('.hamburger').on("click", function () {
+            // if ($('.v_nav').css() === 'display: none' ){
+            //     $('.v_nav').css('display','flex')
+            // } else {
+            //     $('.v_nav').css('display','none')
+            // }
+            $('.v_nav').toggleClass('active_nav');
+            $('.hamburger-inner').toggleClass('active_hamburger')
+        });
     });
 
 })(jQuery);
