@@ -1,6 +1,6 @@
 $sliderHeight: 93;
 html {
-
+  background-color: #111111;
   margin: 0;
   font-size: 0;
   padding: 0;
@@ -295,7 +295,8 @@ body {
       transform: translateX(-100%);
     }
     .hamburger {
-      position: absolute;
+      position:fixed;
+
       right: 2vw;
       z-index: 150;
       width: 4vh;
