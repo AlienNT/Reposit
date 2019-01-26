@@ -1,0 +1,13 @@
+;(function ($) {
+    $('.more_vid').click(function () {
+        $('.vid_btn').css('display', 'inline');
+        $(this).css('display', 'none')
+    });
+
+    $('.logo').click(function () {
+        if (window.innerWidth <= 600) {
+            $('.row_2').toggleClass('show_menu')
+        }
+    });
+
+})(jQuery);
