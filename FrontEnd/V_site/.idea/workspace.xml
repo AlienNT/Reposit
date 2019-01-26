@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45edc99e-933e-44c1-9bef-925af02dbecf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="45edc99e-933e-44c1-9bef-925af02dbecf" name="Default Changelist" comment="site 0.1a">
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/images/bele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/images/scroll_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/images/scroll_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/images/wele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/d&amp;d_Trysten/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/fonts/WebSymbolsLiga-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/fonts/WebSymbolsLiga-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/fonts/web_symbols_ligaregular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/fonts/web_symbols_ligaregular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/Play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/calend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/human.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/missed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/phone1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/images/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/js/jquery-3.3.1.min.js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/js/main.js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/style/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/style/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/style/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Complete/test_v2/style/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/salat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +67,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+                <state relative-caret-position="391">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -45,10 +92,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="342" column="19" lean-forward="true" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
+                <state relative-caret-position="810">
+                  <caret line="515" lean-forward="true" selection-start-line="515" selection-end-line="515" />
                   <folding>
-                    <element signature="e#8057#9416#0" />
+                    <element signature="e#7598#8888#0" />
                   </folding>
                 </state>
               </provider>
@@ -71,7 +118,7 @@
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="444">
-                  <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+                  <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -111,12 +158,12 @@
         <option value="$PROJECT_DIR$/css/media.sass" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/media.scss" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1131" />
     <option name="width" value="796" />
     <option name="height" value="1047" />
@@ -150,6 +197,11 @@
               <item name="V_site" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="media.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="V_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="V_site" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="V_site" type="b2602c69:ProjectViewProjectNode" />
@@ -225,20 +277,21 @@
       <workItem from="1548174141286" duration="4307000" />
       <workItem from="1548334503437" duration="14026000" />
       <workItem from="1548366252338" duration="1614000" />
-      <workItem from="1548432751917" duration="26248000" />
+      <workItem from="1548432751917" duration="26771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61439000" />
+    <option name="totallyTimeSpent" value="61962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20844327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2081138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32822758" />
@@ -249,7 +302,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3261105" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -257,6 +310,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="site 0.1a" />
+    <option name="LAST_COMMIT_MESSAGE" value="site 0.1a" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -321,7 +378,7 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -336,22 +393,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="342" column="19" lean-forward="true" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
+        <state relative-caret-position="391">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#8057#9416#0" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="810">
+          <caret line="515" lean-forward="true" selection-start-line="515" selection-end-line="515" />
           <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7598#8888#0" />
           </folding>
         </state>
       </provider>
