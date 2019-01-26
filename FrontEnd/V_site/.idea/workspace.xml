@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45edc99e-933e-44c1-9bef-925af02dbecf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4760479">
+    <splitter split-orientation="horizontal" split-proportion="0.4525066">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="563">
-                  <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+                <state relative-caret-position="306">
+                  <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -51,10 +45,9 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="529">
-                  <caret line="303" column="20" selection-start-line="303" selection-start-column="14" selection-end-line="303" selection-end-column="20" />
+                <state relative-caret-position="289">
+                  <caret line="342" column="19" lean-forward="true" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
                   <folding>
-                    <element signature="e#5337#8044#0" />
                     <element signature="e#8057#9416#0" />
                   </folding>
                 </state>
@@ -118,12 +111,12 @@
         <option value="$PROJECT_DIR$/css/media.sass" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/media.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1131" />
     <option name="width" value="796" />
     <option name="height" value="1047" />
@@ -232,15 +225,15 @@
       <workItem from="1548174141286" duration="4307000" />
       <workItem from="1548334503437" duration="14026000" />
       <workItem from="1548366252338" duration="1614000" />
-      <workItem from="1548432751917" duration="25350000" />
+      <workItem from="1548432751917" duration="26248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60541000" />
+    <option name="totallyTimeSpent" value="61439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1131" y="0" width="796" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20844327" />
@@ -343,23 +336,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="342" column="19" lean-forward="true" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
           <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#8057#9416#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="303" column="20" selection-start-line="303" selection-start-column="14" selection-end-line="303" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding>
-            <element signature="e#5337#8044#0" />
-            <element signature="e#8057#9416#0" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
