@@ -28,14 +28,26 @@
         });
 
         $('.hamburger').on("click", function () {
-            // if ($('.v_nav').css() === 'display: none' ){
-            //     $('.v_nav').css('display','flex')
-            // } else {
-            //     $('.v_nav').css('display','none')
-            // }
-            $('.v_nav').toggleClass('active_nav');
-            $('.hamburger-inner').toggleClass('active_hamburger')
+            var nav = $('.v_nav'),
+                navA = $('.v_nav a');
+
+            if (nav.hasClass('active_nav')) {
+                nav.removeClass('active_nav')
+            } else {
+                nav.addClass('active_nav')
+            }
+            navA.on('click',function () {
+                nav.removeClass('active_nav');
+                $('.hamburger-inner').removeClass('active_hamburger')
+            });
+            $('.hamburger-inner').toggleClass('active_hamburger');
         });
+
+
+        // $('.blog-inner img').on('click', function () {
+        //     $(this).toggleClass('img_toggle')
+        // })
+
     });
 
 })(jQuery);
